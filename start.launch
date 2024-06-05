@@ -1,0 +1,12 @@
+<!-- -->
+<launch>
+    <include file="/home/divinetech/env.launch">
+      <arg name="camera_sensor_x" value="1.0" /> 
+      <arg name="camera_sensor_y" value="1.0" />
+      <arg name="camera_sensor_z" value="1.0" />
+      <arg name="lidar_sensor_x"  value="2.0" />
+      <arg name="lidar_sensor_y"  value="2.0" />
+      <arg name="lidar_sensor_z"  value="2.0" />
+    </include>
+    
+</launch>
